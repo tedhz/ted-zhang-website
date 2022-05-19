@@ -11,7 +11,7 @@ function Contact () {
     return (
         <>
             <div className="contact-container">
-                <div className='text-zone-contact'>
+                <div className='text-zone-pages'>
                     <div className='title-contact'>
                         <h1>Contact</h1>
                     </div>
