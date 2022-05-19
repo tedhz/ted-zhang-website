@@ -30,10 +30,10 @@
 .contact-content{
     position: absolute;
     top: 40%;
-    width: 100%;
+    width: 100vw;
     height: 50%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     animation: fadeIn 1s .5s backwards;
     animation-delay: 1s;
 }
