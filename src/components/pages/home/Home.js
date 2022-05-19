@@ -22,7 +22,7 @@ function Home() {
                     <div className='right-banner-text'>
                         <Link to="/about" className='right-button'>ABOUT ME</Link>
                         <div className='right-text'>
-                            <h3>Work Experience, Education, Interests, Fun Facts</h3>
+                            <h3>Work Experience, Education, Interests</h3>
                         </div>
                     </div>
                     <div className='about-banner-back'></div>
@@ -31,7 +31,7 @@ function Home() {
                     <div className='left-banner-text'>
                         <Link to="/projects" className='left-button'>PROJECTS</Link>
                         <div className='left-text'>
-                            <h3>Personal and Professional Projects Made by Me</h3>
+                            <h3>Personal and Professional Projects by Me</h3>
                         </div>  
                     </div>    
                 </div>

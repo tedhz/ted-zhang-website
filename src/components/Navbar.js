@@ -32,7 +32,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                    Ted Zhang <FontAwesomeIcon icon={ faDisplay } className='fa-display'/>
+                    <FontAwesomeIcon icon={ faDisplay } className='fa-display'/>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <FontAwesomeIcon icon={click ? faTimes : faBars} className={click ? 'fa-times' : 'fa-bars'}/>
