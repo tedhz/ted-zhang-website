@@ -22,15 +22,28 @@
     animation-delay: 1s;
 }
 
+.txt-and-pic {
+    padding-left: 10%;
+    animation: fadeIn 1s .5s backwards;
+    animation-delay: 1s;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+}
+
 .about-text {
     color: #2C2B30;
-    padding-left: 10%;
-    width: 60vw;
+    max-width: 80vw;
     font-size: 1rem;
     letter-spacing: 2px;
     line-height: 27px;
-    animation: fadeIn 1s .5s backwards;
-    animation-delay: 1s;
+    padding-bottom: 3rem;
+}
+
+.about-pic {
+    width: 45%;
+    justify-self: center;
+    align-self: top;
 }
 
 h4 {
@@ -41,7 +54,7 @@ h4 {
 
 .skills{
     padding-left: 10%;
-    padding-top: 3rem;
+    padding-top: 2rem;
     max-width: 85vw;
     animation: fadeIn 1s .5s backwards;
     animation-delay: 1s;

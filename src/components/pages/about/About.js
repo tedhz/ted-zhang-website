@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './About.scss';
+import aboutPic from './t-temp-logo.png';
 
 function About () {
     return (
@@ -11,17 +12,20 @@ function About () {
                         <h1>About Me</h1>
                     </div>
                 </div>
-                <div className='about-text'>
-                    Hi, my name is Ted and I'm a Mechatronics Engineering student at the 
-                    University of Waterloo! I love anything related to computers but I have a 
-                    particular interest in front-end development and artificial intelligence.
-                    I love learning new things and jump at the chance to make anything cool and
-                    computer-y!
-                    <br/><br/>
-                    On a personal note, I love my rabbit TJ, losing lots of games on Valorant and
-                    League of Legends, and learning about cars.
-                    <br/><br/>
-                    Scroll to learn more about me!
+                <div className='txt-and-pic'>
+                    <div className='about-text'>
+                        Hi, my name is Ted and I'm a Mechatronics Engineering student at the 
+                        University of Waterloo! I love anything related to computers but I have a 
+                        particular interest in front-end development and artificial intelligence.
+                        I love learning new things and jump at the chance to make anything cool and
+                        computer-y!
+                        <br/><br/>
+                        On a personal note, I love my rabbit TJ, losing lots of games on Valorant and
+                        League of Legends, and learning about cars.
+                        <br/><br/>
+                        Scroll to learn more about me!
+                    </div>
+                    <img className='about-pic' src={ aboutPic } />
                 </div>
                 <div className='skills'>
                     <h4 className='skills-heading'>
