@@ -37,20 +37,20 @@ function Contact () {
                         </div>
                     </div>
                     <div className='linkedin-section'>
-                        <Link to='/linkedin' className='contact-logo-white' >
+                        <a href='https://www.linkedin.com/in/ted-h-zhang' target="_blank" className='contact-logo-white' >
                             <FontAwesomeIcon className='contact-icon' icon={ faLinkedin } />
-                        </Link>
-                        <Link to='/linkedin' className='contact-text-white' >
+                        </a>
+                        <a href='https://www.linkedin.com/in/ted-h-zhang' target="_blank" className='contact-text-white' >
                             linkedin.com/in/ted-h-zhang/
-                        </Link>
+                        </a>
                     </div>
                     <div className='github-section'>
-                        <Link to='/github' className='contact-logo-white' >
+                        <a href="https://github.com/tedhz" target="_blank" className='contact-logo-white' >
                                 <FontAwesomeIcon className='contact-icon' icon={ faGithub }/>
-                        </Link>
-                        <Link to='/github' className='contact-text-white' >
+                        </a>
+                        <a href="https://github.com/tedhz" target="_blank" className='contact-text-white' >
                             github.com/tedhz
-                        </Link>
+                        </a>
                     </div>
                 </div>
 

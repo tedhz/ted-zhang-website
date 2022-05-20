@@ -19,28 +19,13 @@ function App() {
           <Route path='/projects' element = {<Projects />}/>
           <Route path='/contact' element = {<Contact />}/>
           <Route path='/resume' element = {<Resume />}/>
-          <Route path='/linkedin' element={<LinkedIn />}/>
-          <Route path='/github' element={<Github />}/>
         </Switch>
       </Router>
     </>
   );
 }
 
-function Resume_Download() {
-  window.location.replace("https://drive.google.com/file/d/11D01uitlnqth8Sfw8qb7q-ZTWRXZW2x9/view?usp=sharing");
-  return null;
-}
 
-function LinkedIn() {
-  window.location.replace('https://www.linkedin.com/in/ted-h-zhang');
-  return null;
-}
-
-function Github() {
-  window.location.replace('https://github.com/tedhz');
-  return null;
-}
 
 
 export default App;
