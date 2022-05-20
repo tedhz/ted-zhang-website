@@ -19,7 +19,6 @@ function App() {
           <Route path='/projects' element = {<Projects />}/>
           <Route path='/contact' element = {<Contact />}/>
           <Route path='/resume' element = {<Resume />}/>
-          <Route path='/resume-download' element={<Resume_Download />}/>
           <Route path='/linkedin' element={<LinkedIn />}/>
           <Route path='/github' element={<Github />}/>
         </Switch>

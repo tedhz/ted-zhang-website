@@ -67,7 +67,12 @@ function About () {
                         </li>
                     </ul>
                 </div>
-                
+                <div className='work-exp'>
+                    <h4 className='skills-heading'>Where I've Worked</h4>
+                </div>
+                <div className = 'valorant-rank'>
+                    
+                </div>
             </div>
         </>
     )

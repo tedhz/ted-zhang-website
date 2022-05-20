@@ -23,7 +23,7 @@ function Resume () {
             <div className='description-resume'>
                 <h2>PDF version of my resume. <br /> Last updated June 1st, 2022.</h2>
             </div>
-            <Link to='/resume-download' className='resume-button'>DOWNLOAD</Link>
+            <a href={ Ted_Zhang_Resume } className='resume-button'>DOWNLOAD</a>
         </div>
         
         <div className='pdf-viewer'>
