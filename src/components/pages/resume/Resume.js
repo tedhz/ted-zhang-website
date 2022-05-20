@@ -16,7 +16,7 @@ function Resume () {
 
     return (
     <div className='resume-container'>
-        <div className='text-zone-resume'>
+        <div className='text-zone-pages'>
             <div className='title-resume'>
                 <h1>Resume</h1>
             </div>

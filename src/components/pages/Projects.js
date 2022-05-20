@@ -3,7 +3,7 @@
 function Projects () {
     return (
         <>
-            Projects
+            Come back later!
         </>
     )
 }
