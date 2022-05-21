@@ -25,9 +25,9 @@
 .txt-and-pic {
     animation: fadeIn 1s .5s backwards;
     animation-delay: 1s;
-    width: 100%;
+    width: 100vw;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(600px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(500px, auto));
     animation: fadeIn 1s .5s backwards;
     animation-delay: 1s;
 }
@@ -53,7 +53,10 @@
 
     @media screen and (max-width: 960px) {
         padding-left: 0;
+        transform: translateX(-20%);
         padding-bottom: 10%;
+        align-self: center;
+
     }
 }
 
@@ -109,6 +112,7 @@ h4 {
 
 .work-exp{
     padding-top: 0;
+    max-width: 90vw;
     padding-left: 10%;
     padding-bottom: 20%;
     animation: fadeIn 1s .5s backwards;
