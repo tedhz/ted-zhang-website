@@ -27,12 +27,12 @@ function Resume () {
         </div>
         
         <div className='pdf-viewer'>
-                <div className='pdf'>
-                    <Document className = 'resume-pdf' file={Ted_Zhang_Resume} onLoadSuccess={onDocumentLoadSuccess}>
-                        <Page pageNumber={pageNumber}/>
-                    </Document>
-                </div>
+            <div className='pdf'>
+                <Document className = 'resume-pdf' file={Ted_Zhang_Resume} onLoadSuccess={onDocumentLoadSuccess}>
+                    <Page pageNumber={pageNumber}/>
+                </Document>
             </div>
+        </div>
     </div>
     )
 }

@@ -3,7 +3,6 @@
     will-change: contents;
     min-height: 100vh;
     top: 80px;
-    position: absolute;
     opacity: 1;
     background-color: #D6D6D6;
     z-index: 1;
@@ -14,6 +13,7 @@
     position: absolute;
     left: 10%;
     top: 7%;
+    width: 80%;
     transform: translateY(-20%);
     margin: 0;
     animation: fadeIn 1s .5s backwards;
