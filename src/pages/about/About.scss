@@ -27,7 +27,7 @@
     animation-delay: 1s;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(600px, auto));
     animation: fadeIn 1s .5s backwards;
     animation-delay: 1s;
 }
@@ -41,7 +41,7 @@
     letter-spacing: 2px;
     line-height: 27px;
     padding-bottom: 12%;
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 960px) {
         text-align: center;
     }
 }

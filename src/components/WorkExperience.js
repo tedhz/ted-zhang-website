@@ -36,7 +36,7 @@ function WorkExperience() {
         <div className='jobs-container'>
             <ul className='company-list'>
                 <li 
-                    className='job-item'
+                    className={selectorId==="amd" ? 'item-active' : 'item-inactive'}
                     onClick={() => {
                         setSelectorId("amd");
                     }}
@@ -44,7 +44,7 @@ function WorkExperience() {
                     AMD
                 </li> 
                 <li
-                    className='job-item'
+                    className={selectorId==="formulaelectric" ? 'item-active' : 'item-inactive'}
                     onClick={() => {
                         setSelectorId("formulaelectric");
                     }}
