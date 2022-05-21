@@ -30,6 +30,10 @@
     grid-template-columns: repeat(auto-fit, minmax(500px, auto));
     animation: fadeIn 1s .5s backwards;
     animation-delay: 1s;
+    @media screen and (max-width: 960px) {
+        grid-template-columns: repeat(auto-fit, minmax(95vw, auto));
+
+    }
 }
 
 .about-text {
@@ -53,7 +57,6 @@
 
     @media screen and (max-width: 960px) {
         padding-left: 0;
-        transform: translateX(-20%);
         padding-bottom: 10%;
         align-self: center;
 
