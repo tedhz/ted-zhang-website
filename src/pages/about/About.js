@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './About.scss';
 import aboutPic from './t-temp-logo.png';
+import WorkExperience from '../../components/WorkExperience';
 
 function About () {
     return (
         <>
             <div className='about-container'>
-                <div className='text-zone-about'>
-                    <div className='title-resume'>
+                <div className='text-zone-about'> 
+                    <div className='title-about'>
                         <h1>About Me</h1>
                     </div>
                 </div>
@@ -69,9 +69,7 @@ function About () {
                 </div>
                 <div className='work-exp'>
                     <h4 className='skills-heading'>Where I've Worked</h4>
-                </div>
-                <div className = 'valorant-rank'>
-                    
+                    <WorkExperience className='workexpselector' />
                 </div>
             </div>
         </>

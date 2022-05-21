@@ -2,11 +2,11 @@ import React from 'react';
 import './App.scss';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes as Switch, Route } from 'react-router-dom'
-import Home from './components/pages/home/Home';
-import About from './components/pages/about/About';
-import Projects from './components/pages/Projects';
-import Contact from './components/pages/contact/Contact';
-import Resume from './components/pages/resume/Resume';
+import Home from './pages/home/Home';
+import About from './pages/about/About';
+import Projects from './pages/Projects';
+import Contact from './pages/contact/Contact';
+import Resume from './pages/resume/Resume';
 
 function App() {
   return (
@@ -24,8 +24,6 @@ function App() {
     </>
   );
 }
-
-
 
 
 export default App;

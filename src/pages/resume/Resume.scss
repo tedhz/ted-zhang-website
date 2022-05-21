@@ -52,6 +52,7 @@
     border: 1px solid #F58F7C;
     margin-top: 25px;
     float: left;
+    transition: background-color 0.5s;
 
     &:hover {
         background: #F58F7C;
