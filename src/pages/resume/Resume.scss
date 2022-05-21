@@ -51,6 +51,8 @@
     justify-content: center;
     width: 100%;
     padding-bottom: 5%;
+    animation: fadeIn 1s .5s backwards;
+    animation-delay: 1s;
 }
 
 .resume-pic{
