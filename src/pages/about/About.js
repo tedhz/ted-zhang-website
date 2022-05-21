@@ -29,7 +29,7 @@ function About () {
                 </div>
                 <div className='skills'>
                     <h4 className='skills-heading'>
-                        Skills
+                        Skills I Have
                     </h4>
                     <ul className='skills-content'>
                         <li className='skill'>
