@@ -4,7 +4,7 @@ This is my personal website. Check it out at [tedzhang.ca](https://www.tedzhang.
 
 ## Built With
 
--[Javascript](https://www.javascript.com/)
--[React.js](https://reactjs.org/)
--[SASS](https://sass-lang.com/)
--HTML
+- [Javascript](https://www.javascript.com/)
+- [React.js](https://reactjs.org/)
+- [SASS](https://sass-lang.com/)
+- HTML
