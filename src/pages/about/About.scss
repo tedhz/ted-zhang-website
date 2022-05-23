@@ -14,15 +14,22 @@
 
 .title-about{
     animation: fadeIn 1s .5s backwards;
+    @media screen and (max-width: 960px) { 
+        padding-bottom: 1rem;
+    }
 }
 
 .text-zone-about {
     padding-top: 8%;
     padding-left: 10%;
     transform: translateY(-20%);
+    @media screen and (max-width: 960px) { 
+        padding-top: 4rem;
+    }
 }
 
 .txt-and-pic {
+    padding-bottom: 3rem;
     animation: fadeIn 1s .5s backwards;
     animation-delay: 1s;
     width: 100vw;
@@ -74,11 +81,7 @@ h4 {
     max-width: 85vw;
     animation: fadeIn 1s .5s backwards;
     animation-delay: 1s;
-    padding-bottom: 5%;
-
-    @media screen and (max-width: 960px) {
-        padding-bottom: 10%;
-    }
+    padding-bottom: 6rem;
 }
 
 .skills-content{

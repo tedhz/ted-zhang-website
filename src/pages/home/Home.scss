@@ -1,3 +1,7 @@
+html{
+    background-color: #D6D6D6;
+}
+
 .home-container {
     width: 100%;
     will-change: contents;
@@ -8,7 +12,6 @@
     opacity: 1;
     background-color: #D6D6D6;
     z-index: 1;
-    transform-style: preserve-3d;
 }
 
 .text-zone {

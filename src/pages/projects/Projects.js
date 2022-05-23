@@ -1,6 +1,15 @@
 import './Projects.scss';
+import React, { useEffect, useState } from 'react';
 
 function Projects () {
+    const [clickWebsite, setClickWebsite] = useState(false);
+    const [clickMedCNN, setMedCNN] = useState(false);
+    const [clickMastermind, setClickMastermind] = useState(false);
+    
+    const handleClickWebsite = () => setClickWebsite(!clickWebsite);
+    const handleClickMedCNN = () => setMedCNN(!clickMedCNN);
+    const handleClickMastermind = () => setClickMastermind(!clickMastermind);
+
     return (
         <>
             <div className='projects-container'>
@@ -12,8 +21,8 @@ function Projects () {
                 </div>
                 <div className='projects-content'>
                     <div className='project'>
-                        <div className='project-background'>
-                            <div className='project-details'>
+                        <div className='website-background' onClick={handleClickWebsite}>
+                            <div className={clickWebsite ? 'project-details-active' : 'project-details-inactive'} onClick={handleClickWebsite}>
                                 <ul className='skills-used'>
                                     <li className='skill'>
                                         React.js    
@@ -47,8 +56,8 @@ function Projects () {
                     </div>
 
                     <div className='project'>
-                        <div className='project-background'>
-                            <div className='project-details'>
+                        <div className='medcnn-background' onClick={handleClickMedCNN}>
+                            <div className={clickMedCNN ? 'project-details-active' : 'project-details-inactive'} onClick={handleClickMedCNN}>
                                 <ul className='skills-used'>
                                     <li className='skill'>
                                         Tensorflow    
@@ -88,8 +97,8 @@ function Projects () {
                     </div>
 
                     <div className='project'>
-                        <div className='project-background'>
-                            <div className='project-details'>
+                        <div className='mastermind-background' onClick={handleClickMastermind}>
+                            <div className={clickMastermind ? 'project-details-active' : 'project-details-inactive'} onClick={handleClickMastermind}>
                                 <ul className='skills-used'>
                                     <li className='skill'>
                                         Java    
