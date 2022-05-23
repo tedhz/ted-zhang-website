@@ -1,0 +1,129 @@
+.projects-container{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #D6D6D6;
+}
+
+.text-zone-projects{
+    padding-top: 3%;
+    padding-left: 10%;
+    max-width: 90vw;
+    animation: fadeIn 1s .5s backwards;
+}
+
+.title-projects{
+    color: #2C2B30;
+}
+
+.projects-description{
+    margin-top: 20px;
+}
+
+.projects-content {
+    padding-top: 5%;
+    max-width: 85vw;
+    justify-self: center;
+    align-self: center;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-gap: 2rem;
+    animation: fadeIn 1s .5s backwards;
+    animation-delay: 1s;
+}
+
+.project {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #2C2B30;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.project-background {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.project-details {
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.skills-used{
+    padding-top: 1rem;
+    width: 100%;
+    padding-bottom: 1.5rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    grid-auto-rows: 1fr;
+    grid-gap: 1rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.project-description{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    line-height: 20px;
+    padding-bottom: .5rem;
+}
+
+.project-name-container {
+    width: 100%;
+    height: 3.5rem;
+    background-color: #fff;
+    border-top: 2px solid #2C2B30;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.project-name {
+    font-size: 1.3rem;
+    font-family: 'Exo 2';
+    margin-top: auto;
+}
+
+.code-button-container{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.code-button{
+    padding: 10px 18px;
+    color: #F58F7C;
+    border: 1px solid #F58F7C;
+    text-decoration: none;
+    font-family: 'Roboto Flex';
+    font-size: 1rem;
+    letter-spacing: 2px;
+    transition: background-color 0.5s;
+    &:hover {
+        background: #F58F7C;
+        color: #D6D6D6;
+    }
+}
