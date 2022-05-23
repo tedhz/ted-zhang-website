@@ -33,7 +33,7 @@
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    grid-gap: 2rem;
+    gap: 2rem;
     animation: fadeIn 1s .5s backwards;
     animation-delay: 1s;
 
