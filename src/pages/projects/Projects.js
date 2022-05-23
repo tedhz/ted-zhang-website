@@ -24,13 +24,13 @@ function Projects () {
                         <div className='website-background' onClick={handleClickWebsite}>
                             <div className={clickWebsite ? 'project-details-active' : 'project-details-inactive'} onClick={handleClickWebsite}>
                                 <ul className='skills-used'>
-                                    <li className='skill'>
+                                    <li className='project-skill'>
                                         React.js    
                                     </li>
-                                    <li className='skill'>
+                                    <li className='project-skill'>
                                         SASS    
                                     </li>
-                                    <li className='skill'>
+                                    <li className='project-skill'>
                                         Javascript    
                                     </li>    
                                 </ul>
@@ -59,22 +59,22 @@ function Projects () {
                         <div className='medcnn-background' onClick={handleClickMedCNN}>
                             <div className={clickMedCNN ? 'project-details-active' : 'project-details-inactive'} onClick={handleClickMedCNN}>
                                 <ul className='skills-used'>
-                                    <li className='skill'>
+                                    <li className='project-skill'>
                                         Tensorflow    
                                     </li>
-                                    <li className='skill'>
+                                    <li className='project-skill'>
                                         Keras    
                                     </li>
-                                    <li className='skill'>
+                                    <li className='project-skill'>
                                         Pandas    
                                     </li>
-                                    <li className='skill'>
+                                    <li className='project-skill'>
                                         Tkinter    
                                     </li>
-                                    <li className='skill'>
+                                    <li className='project-skill'>
                                         Python    
                                     </li>
-                                    <li className='skill'>
+                                    <li className='project-skill'>
                                         AI/ML    
                                     </li>    
                                 </ul>
@@ -100,13 +100,13 @@ function Projects () {
                         <div className='mastermind-background' onClick={handleClickMastermind}>
                             <div className={clickMastermind ? 'project-details-active' : 'project-details-inactive'} onClick={handleClickMastermind}>
                                 <ul className='skills-used'>
-                                    <li className='skill'>
+                                    <li className='project-skill'>
                                         Java    
                                     </li>
-                                    <li className='skill'>
+                                    <li className='project-skill'>
                                         ArrayList    
                                     </li>
-                                    <li className='skill'>
+                                    <li className='project-skill'>
                                         Java AWT    
                                     </li>    
                                 </ul>
