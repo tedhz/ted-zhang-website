@@ -33,12 +33,15 @@
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    gap: 2rem;
+    grid-gap: 2rem;
     animation: fadeIn 1s .5s backwards;
     animation-delay: 1s;
 
     @media screen and (max-width: 960px) {
         padding-top: 15%;
+
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
@@ -67,9 +70,17 @@
     transition: all .8s;
     background-position: center center;
 
+    @media screen and (max-width: 960px) {
+        background-size: 120%;
+    }
+
     &:hover{
         cursor: pointer;
         background-size: 110%;
+
+        @media screen and (max-width: 960px) {
+            background-size: 130%;
+        }
     }
 }
 
@@ -84,9 +95,17 @@
     transition: all .8s;
     background-position: center center;
 
+    @media screen and (max-width: 960px) {
+        background-size: 150%;
+    }
+
     &:hover{
         cursor: pointer;
         background-size: 110%;
+
+        @media screen and (max-width: 960px) {
+            background-size: 160%;
+        }
     }
 }
 
@@ -101,9 +120,17 @@
     transition: all .8s;
     background-position: center center;
 
+    @media screen and (max-width: 960px) {
+        background-size: 150%;
+    }
+
     &:hover{
         cursor: pointer;
         background-size: 110%;
+
+        @media screen and (max-width: 960px) {
+            background-size: 160%;
+        }
     }
 }
 
