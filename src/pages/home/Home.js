@@ -22,7 +22,7 @@ function Home() {
                     <div className='right-banner-text'>
                         <Link to="/about" className='right-button'>ABOUT ME</Link>
                         <div className='right-text'>
-                            <h3>Work Experience, Education, Interests</h3>
+                            <h3>Work Experience, Education</h3>
                         </div>
                     </div>
                     <div className='about-banner-back'></div>

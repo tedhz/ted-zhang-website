@@ -87,6 +87,11 @@
     text-decoration: none;
     color: #D6D6D6;
     font-size: 80px;
+    transition: all .8s;
+
+    &:hover {
+        color: #2C2B30;
+    }
 }
 
 .contact-text-black {
@@ -104,5 +109,10 @@
     letter-spacing: 3px;
     font-size: .75rem;
     margin-bottom: 1.5rem;
+    transition: all .8s;
+
+    &:hover {
+        color: #2C2B30;
+    }
 }
 
