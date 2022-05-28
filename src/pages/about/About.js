@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.scss';
-import aboutPic from './t-temp-logo.png';
+import aboutPic from './personal_photo.jpg';
 import WorkExperience from '../../components/WorkExperience';
 
 function About () {
