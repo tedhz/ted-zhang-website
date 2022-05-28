@@ -71,6 +71,9 @@ function About () {
                     <h4 className='skills-heading'>Where I've Worked</h4>
                     <WorkExperience className='workexpselector' />
                 </div>
+                <div className='easter-egg'>
+                            I love Kristie    
+                </div>
             </div>
         </>
     )
