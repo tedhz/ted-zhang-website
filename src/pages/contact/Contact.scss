@@ -78,8 +78,13 @@
 .contact-logo-black {
     margin-top: 1.5rem;
     text-decoration: none;
+    text-decoration: none;
     color: #2C2B30;
     font-size: 80px;
+    transition: all .8s;
+    &:hover{
+        transform: translateY(-10%);
+    }
 }
 
 .contact-logo-white {
@@ -101,6 +106,12 @@
     letter-spacing: 3px;
     font-size: .75rem;
     margin-bottom: 1.5rem;
+    text-decoration: none;
+    transition: all .8s;
+
+    &:hover {
+        color: #949494;
+    }
 }
 
 .contact-text-white {

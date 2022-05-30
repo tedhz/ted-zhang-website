@@ -21,12 +21,12 @@ function Contact () {
                 </div>
                 <div className='contact-content'>
                     <div className='email-section'>
-                        <div className='contact-logo-black' >
+                        <a href="mailto:th3zhang@uwaterloo.ca" target="_blank" className='contact-logo-black' >
                             <FontAwesomeIcon className='contact-icon' icon={ faEnvelope }/>
-                        </div>
-                        <div className='contact-text-black' >
-                            ted.h.zhang@gmail.com
-                        </div>
+                        </a>
+                        <a href="mailto:th3zhang@uwaterloo.ca" target="_blank" className='contact-text-black' >
+                            th3zhang@uwaterloo.ca
+                        </a>
                     </div>
                     <div className='phone-section'>
                         <div className='contact-logo-black' >

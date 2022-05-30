@@ -26,6 +26,11 @@
     font-family: 'Exo 2';
     font-size: 2rem;
     left: 10%;
+    transition: all .5s;
+
+    &:hover {
+      transform: translateY(-10%);
+    }
   }
   
   .fa-display {
@@ -138,6 +143,11 @@
       left: 0;
       bottom: 55%;
       transform: translate(25%, 50%);
+      transition: all .5s;
+
+      &:hover {
+        transform: translate(25%, 40%);
+      }
     }
   
     .menu-icon {
