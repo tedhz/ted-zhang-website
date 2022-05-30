@@ -93,6 +93,7 @@
     background-image: url('./projects_backgrounds/medcnn-background.PNG');
     background-size: 100%;
     transition: all .8s;
+    background-repeat: no-repeat;
     background-position: center center;
 
     @media screen and (max-width: 960px) {
@@ -117,6 +118,7 @@
     justify-content: center;
     background-image: url('./projects_backgrounds/mastermind-background.png');
     background-size: 100%;
+    background-repeat: no-repeat;
     transition: all .8s;
     background-position: center center;
 
@@ -225,7 +227,7 @@
 .code-button-container{
     width: 100%;
     padding-top: 10px;
-    padding-bottom: 2rem;
+    padding-bottom: 2.5rem;
     text-align: center;
 }
 

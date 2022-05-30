@@ -120,6 +120,12 @@ function Projects () {
                                     intelligence that can beat nearly any
                                     human player. 
                                 </div>
+                                <div className='code-button-container'>
+                                    <a href='https://github.com/tedhz/mastermind-ai' target="_blank" 
+                                    className='code-button' >
+                                        Get Code
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div className='project-name-container'>
