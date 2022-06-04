@@ -127,7 +127,8 @@ h3 {
     position: relative;
     align-self: center;
     transform: translate(10vw, -20vh);
-    z-index: 1;
+    animation: fadeIn 1s .5s backwards;
+    z-index: 2;
 
     @media screen and (max-width: 960px) { 
         transform: none;
