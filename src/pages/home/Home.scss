@@ -121,7 +121,12 @@ h3 {
     }
 }
 
+.stage-cube-cont-inactive {
+    display: none;
+}
+
 .stage-cube-cont {
+    display: initial;
     width: 50%;
     height: 100%;
     position: relative;
@@ -208,6 +213,43 @@ h3 {
       transform: rotateX(90deg);
     }
   }
+
+/*
+.pseudo-navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%
+  }
+
+.pseudo-navbar-cont {
+    top: 0;
+    left: 0;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+}
+
+.pseudo-menu-icon {
+    display: none;
+
+    @media screen and (max-width: 960px) { 
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        width: 1.8rem;
+        height: 1.8rem;
+        pointer-events: all;
+    }
+}
+
+*/
+
 /*
 .right-button {
     color: #D6D6D6;

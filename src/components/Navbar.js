@@ -6,7 +6,10 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import './Navbar.scss';
 
-function Navbar() {
+export const NavMenuContext = React.createContext();
+
+export default function Navbar() {
+
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -28,7 +31,7 @@ function Navbar() {
   window.addEventListener('resize', showButton);
 
   return (
-    <>
+    <NavMenuContext.Provider value={ click }>
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
@@ -66,9 +69,6 @@ function Navbar() {
                 </ul>
             </div>    
         </nav>
-    </>
+    </NavMenuContext.Provider>
   );
 }
-
-
-export default Navbar;
