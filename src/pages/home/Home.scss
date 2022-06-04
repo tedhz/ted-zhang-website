@@ -126,7 +126,7 @@ h3 {
     height: 100%;
     align-self: center;
     transform: translate(10vw, -20vh);
-    z-index: 998;
+    z-index: 1;
 
     @media screen and (max-width: 960px) { 
         transform: none;
@@ -142,7 +142,7 @@ h3 {
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
     margin-left: calc(50% - 100px);
-    z-index: 998;
+    z-index: 1;
   
     div {
       position: absolute;
