@@ -1,29 +1,40 @@
 html{
-    background-color: #D6D6D6;
+    background-color: #2C2B30;
 }
 
 .home-container {
-    width: 100%;
+    width: 100vw;
     will-change: contents;
-    min-height: 92%;
-    max-height: auto;
+    min-height: 100vh;
     top: 80px;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     opacity: 1;
-    background-color: #D6D6D6;
     z-index: 1;
+
+    @media screen and (max-width: 960px) { 
+        flex-direction: column;
+    }
 }
 
 .text-and-pic-home{
     display: flex;
     flex-direction: row;
+    justify-self: center;
+    align-self: center;
+    padding-left: 10%;
+
+    @media screen and (max-width: 960px) { 
+        align-self: auto;
+        padding-left: 0;
+    }
 }
 
 .text-zone {
     padding-top: 8%;
     padding-left: 10%;
+    max-width: 90vw;
     transform: translateY(-20%);
     margin: 0;
     animation: fadeIn 1s .5s backwards;
@@ -42,11 +53,11 @@ h1 {
 }
 
 .title-home {
-    color: #2C2B30;
+    color: #d6d6d6;
     &::before {
         content: '<h1>';
         font-family: 'Roboto Mono';
-        color: #2C2B30;
+        color: #d6d6d6;
         font-size: 18px;
         opacity: 0.6;
     }
@@ -54,7 +65,7 @@ h1 {
     &::after {
         content: '<h1/>';
         font-family: 'Roboto Mono';
-        color: #2C2B30;
+        color: #d6d6d6;
         font-size: 18px;
         opacity: 0.6;
     }
@@ -68,7 +79,7 @@ h2 {
 }
 
 .description-home {
-    color: #2C2B30;
+    color: #d6d6d6;
     margin-top: 40px;
 }
 
@@ -111,6 +122,89 @@ h3 {
     }
 }
 
+.stage-cube-cont {
+    width: 50%;
+    height: 100%;
+    align-self: center;
+    transform: translate(10vw, -20vh);
+
+    @media screen and (max-width: 960px) { 
+        transform: none;
+        padding-bottom: 75%;
+    }
+  }
+  
+  .cubespinner {
+    animation-name: spincube;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    transform-style: preserve-3d;
+    transform-origin: 100px 100px 0;
+    margin-left: calc(50% - 100px);
+  
+    div {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      border: 1px solid #ccc;
+      background: rgba(255, 255, 255, 0.4);
+      text-align: center;
+      font-size: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 20px 0px #F58F7C;
+    }
+  
+    .face1 {
+      transform: translateZ(100px);
+      color: #efd81d;
+    }
+    .face2 {
+      transform: rotateY(90deg) translateZ(100px);
+      color: #28a4d9;
+    }
+    .face3 {
+      transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+      color: #264de4;
+    }
+    .face4 {
+      transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+      color: #5ed4f4;
+    }
+    .face5 {
+      transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+      color: #2C2B30;
+    }
+    .face6 {
+      transform: rotateX(-90deg) translateZ(100px);
+      color: #ea682c;
+    }
+  }
+  
+  @keyframes spincube {
+    from,
+    to {
+      transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    16% {
+      transform: rotateY(-90deg);
+    }
+    33% {
+      transform: rotateY(-90deg) rotateZ(90deg);
+    }
+    50% {
+      transform: rotateY(-180deg) rotateZ(90deg);
+    }
+    66% {
+      transform: rotateY(-270deg) rotateX(90deg);
+    }
+    83% {
+      transform: rotateX(90deg);
+    }
+  }
+/*
 .right-button {
     color: #D6D6D6;
     margin-left: 25px;
@@ -216,4 +310,4 @@ h3 {
     background-repeat: no-repeat;
     filter: brightness(40%);
 }
-
+*/

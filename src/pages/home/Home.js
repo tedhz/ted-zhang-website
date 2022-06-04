@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import './Home.scss';
 import homePic from './t-temp-logo.png';
+import { faJsSquare, faReact, faCss3, faPython, faLinux } from '@fortawesome/free-brands-svg-icons';
+import { faBrain } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Home() {
     
@@ -19,41 +22,31 @@ function Home() {
                     </div>
                     <Link to="/contact" className='contact-button'>CONTACT ME</Link>
                 </div>
-
             </div>
-            
-            <div className='banners'>
 
-                <div className='about-banner'>
-                    <div className='right-banner-text'>
-                        <Link to="/about" className='right-button'>ABOUT ME</Link>
-                        <div className='right-text'>
-                            <h3>Work Experience, Education</h3>
-                        </div>
+            <div className='stage-cube-cont'>
+                <div className='cubespinner'>
+                    <div className='face1'>
+                        <FontAwesomeIcon icon={faJsSquare} />
                     </div>
-                    <div className='about-banner-back'></div>
-                </div>
-
-                <div className='projects-banner'>
-                    <div className='left-banner-text'>
-                        <Link to="/projects" className='left-button'>PROJECTS</Link>
-                        <div className='left-text'>
-                            <h3>Personal and Professional Projects by Me</h3>
-                        </div>  
-                    </div>    
-                </div>
-
-                <div className='resume-banner'>
-                    <div className='right-banner-text'>
-                        <Link to='/resume' className='right-button'>RESUME</Link>
-                        <div className='right-text'>
-                            <h3>Viewable PDF of my Full Resume</h3> 
-                        </div>
+                    <div className='face2'>
+                        <FontAwesomeIcon icon={faReact}/>
                     </div>
-                    <div className='resume-banner-back'></div>
+                    <div className='face3'>
+                        <FontAwesomeIcon icon={faCss3}/>
+                    </div>
+                    <div className='face4'>
+                        <FontAwesomeIcon icon={faPython}/>
+                    </div>
+                    <div className='face5'>
+                        <FontAwesomeIcon icon={faLinux}/>
+                    </div>
+                    <div className='face6'>
+                        <FontAwesomeIcon icon={faBrain}/>
+                    </div>
                 </div>
-                
-            </div>    
+            </div>
+
         </div>
     );
 }
