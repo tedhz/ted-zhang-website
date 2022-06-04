@@ -36,13 +36,13 @@ function Home() {
                         <FontAwesomeIcon icon={faCss3}/>
                     </div>
                     <div className='face4'>
-                        <FontAwesomeIcon icon={faPython}/>
+                        <FontAwesomeIcon icon={faBrain}/>
                     </div>
                     <div className='face5'>
                         <FontAwesomeIcon icon={faLinux}/>
                     </div>
                     <div className='face6'>
-                        <FontAwesomeIcon icon={faBrain}/>
+                        <FontAwesomeIcon icon={faPython}/>
                     </div>
                 </div>
             </div>
