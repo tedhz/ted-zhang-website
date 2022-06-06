@@ -3,7 +3,7 @@ html{
 }
 
 .home-container {
-    width: 100vw;
+    max-width: 100vw;
     will-change: contents;
     min-height: 100vh;
     top: 80px;
@@ -11,6 +11,7 @@ html{
     display: flex;
     flex-direction: row;
     opacity: 1;
+    overflow: hidden;
 
     @media screen and (max-width: 960px) { 
         flex-direction: column;
