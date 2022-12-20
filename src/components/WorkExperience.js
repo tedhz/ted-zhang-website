@@ -2,7 +2,7 @@ import React, {useEffect, useState } from 'react';
 import './WorkExperience.scss';
 
 function WorkExperience() {
-    const [selectorId, setSelectorId] = useState("amd");
+    const [selectorId, setSelectorId] = useState("blackberry");
     const [position, setPosition] = useState("");
     const [company, setCompany] = useState("");
     const [dates, setDates] = useState("");
