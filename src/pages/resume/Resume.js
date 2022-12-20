@@ -11,7 +11,7 @@ function Resume () {
                 <h1>Resume</h1>
             </div>
             <div className='description-resume'>
-                <h2>PDF version of my resume. <br /> Last updated June 1st, 2022.</h2>
+                <h2>PDF version of my resume. <br /> Last updated December 20th, 2022.</h2>
             </div>
             <a href={ Ted_Zhang_Resume } target="_blank" className='resume-button'>DOWNLOAD</a>
         </div>
