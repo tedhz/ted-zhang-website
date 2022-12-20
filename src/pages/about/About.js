@@ -16,7 +16,7 @@ function About () {
                     <div className='about-text'>
                         Hi, my name is Ted and I'm a Mechatronics Engineering student at the 
                         University of Waterloo! I love anything related to computers but I have a 
-                        particular interest in front-end development and artificial intelligence.
+                        particular interest in software and machine learning.
                         I love learning new things and jump at the chance to make anything cool and
                         computer-y!
                         <br/><br/>
@@ -33,15 +33,6 @@ function About () {
                     </h4>
                     <ul className='skills-content'>
                         <li className='skill'>
-                                Javascript
-                        </li>
-                        <li className='skill'>
-                                React.js
-                        </li>
-                        <li className='skill'>
-                                CSS/SASS
-                        </li>
-                        <li className='skill'>
                                 Python
                         </li>    
                         <li className='skill'>
@@ -52,6 +43,24 @@ function About () {
                         </li>
                         <li className='skill'>
                                 Pandas
+                        </li>
+                        <li className='skill'>
+                                Scikit-learn
+                        </li>
+                        <li className='skill'>
+                                NumPy
+                        </li>
+                        <li className='skill'>
+                                Javascript
+                        </li>
+                        <li className='skill'>
+                                React.js
+                        </li>
+                        <li className='skill'>
+                                CSS/SASS
+                        </li>
+                        <li className='skill'>
+                                CI/CD
                         </li>
                         <li className='skill'>
                                 Linux/Unix Shell Scripting

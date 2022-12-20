@@ -10,14 +10,15 @@ function WorkExperience() {
 
     useEffect(() => {
         if (selectorId === "amd") {
-            setPosition("Artificial Intelligence Intern");
+            setPosition("Machine Learning Developer Intern");
             setCompany("Advanced Micro Devices Inc. (AMD)");
             setDates("Jan 2022 - Apr 2022");
             setDescription([
-                "Developed and trained a medical diagnosis AI using TensorFlow, OpenCV, and Keras trained on brain scans from an RSNA database of over 700,000 images that can detect intracranial hemorrhages with 94% validation accuracy. Utilized transfer learning using InceptionV3 as well as a custom data loader.",
-                "Built both a CLI and GUI using Tkinter to display the brain scans along with their predictions in a user-friendly manner. Wrote a user guide to accompany the program.",
-                "Containerized AMD's AI inference optimization library, ZenDNN, along with various other pretrained models using Docker and an Ubuntu Linux base image. Tailored the containers for specific models with custom bash scripts used to run pre-set benchmarks.",
-                "Wrote a script for, storyboarded, recorded, and edited a technical instructional video for installing and using ZenDNN in Linux.",
+                "Developed and trained a medical diagnosis AI that can detect intracranial hemorrhages with 94% validation accuracy using TensorFlow, Keras, Pandas, and NumPy trained on brain scans from an RSNA database of over 700,000 images.",
+                "Utilized transfer learning using InceptionV3, a custom data loader, and image preprocessing using OpenCV.",
+                "Built both a CLI and GUI using Tkinter to display the brain scans along with their predictions in a user-friendly manner.",
+                "Wrote a user guide and technical documentation to accompany the program.",
+                "Containerized an inference optimization library along with various other pretrained models using Docker and bash scripts.",
             ]);
         } else if (selectorId === "formulaelectric") {
             setPosition("Tractive Systems Team Member");
@@ -28,6 +29,17 @@ function WorkExperience() {
                 "Prototyped and machined aluminum cooling vents underneath the battery of the car.",
                 "Modified a PDU mount to include a waterproofed container for a relay in SOLIDWORKS.",
             ]);
+        } else if (selectorId === "blackberry") {
+            setPosition("Software Engineering Intern");
+            setCompany("BlackBerry Limited");
+            setDates("Oct 2021 - Apr 2022");
+            setDescription([
+                "Developed an unsupervised NLP model with an 87 f1-score and 92% validation accuracy for log anomaly detection using hashing vectorizers, scalars, LSTM autoencoders, Google’s BERT transformer, and isolation forest.",
+                "Tested, productionized, and integrated the new model into the existing codebase and pushed 2000+ lines into production.",
+                "Researched and experimented with models from research papers using TensorFlow, Keras, Sckit-learn, and Pandas.",
+                "Improved the machine learning data pipeline by decreasing memory usage by 38% using multiprocessing, working on a NoSQL database, and reducing log footprint and redundant API calls by 55%.",
+                "Implemented a CI/CD pipeline using Git, GitLab CI/CD, GitLab Runner, Docker, and bash scripts.",
+            ]);
         }
 
     }, [selectorId]);
@@ -35,6 +47,14 @@ function WorkExperience() {
     return(
         <div className='jobs-container'>
             <ul className='company-list'>
+                <li 
+                    className={selectorId==="blackberry" ? 'item-active' : 'item-inactive'}
+                    onClick={() => {
+                        setSelectorId("blackberry");
+                    }}
+                >
+                    BlackBerry
+                </li> 
                 <li 
                     className={selectorId==="amd" ? 'item-active' : 'item-inactive'}
                     onClick={() => {
