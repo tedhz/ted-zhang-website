@@ -25,7 +25,7 @@ function About () {
                         <br/><br/>
                         Scroll to learn more about me!
                     </div>
-                    <img className='about-pic' src={ aboutPic } />
+                    <img className='about-pic' src={ aboutPic } alt="" />
                 </div>
                 <div className='skills'>
                     <h4 className='skills-heading'>

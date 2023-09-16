@@ -21,10 +21,10 @@ function Contact () {
                 </div>
                 <div className='contact-content'>
                     <div className='email-section'>
-                        <a href="mailto:th3zhang@uwaterloo.ca" target="_blank" className='contact-logo-black' >
+                        <a href="mailto:th3zhang@uwaterloo.ca" target="_blank" rel="noreferrer" className='contact-logo-black' >
                             <FontAwesomeIcon className='contact-icon' icon={ faEnvelope }/>
                         </a>
-                        <a href="mailto:th3zhang@uwaterloo.ca" target="_blank" className='contact-text-black' >
+                        <a href="mailto:th3zhang@uwaterloo.ca" target="_blank" rel="noreferrer" className='contact-text-black' >
                             th3zhang@uwaterloo.ca
                         </a>
                     </div>
@@ -37,18 +37,18 @@ function Contact () {
                         </div>
                     </div>
                     <div className='linkedin-section'>
-                        <a href='https://www.linkedin.com/in/ted-h-zhang' target="_blank" className='contact-logo-white' >
+                        <a href='https://www.linkedin.com/in/ted-h-zhang' target="_blank" rel="noreferrer" className='contact-logo-white' >
                             <FontAwesomeIcon className='contact-icon' icon={ faLinkedin } />
                         </a>
-                        <a href='https://www.linkedin.com/in/ted-h-zhang' target="_blank" className='contact-text-white' >
+                        <a href='https://www.linkedin.com/in/ted-h-zhang' target="_blank" rel="noreferrer" className='contact-text-white' >
                             linkedin.com/in/ted-h-zhang/
                         </a>
                     </div>
                     <div className='github-section'>
-                        <a href="https://github.com/tedhz" target="_blank" className='contact-logo-white' >
+                        <a href="https://github.com/tedhz" target="_blank" rel="noreferrer" className='contact-logo-white' >
                                 <FontAwesomeIcon className='contact-icon' icon={ faGithub }/>
                         </a>
-                        <a href="https://github.com/tedhz" target="_blank" className='contact-text-white' >
+                        <a href="https://github.com/tedhz" target="_blank" rel="noreferrer" className='contact-text-white' >
                             github.com/tedhz
                         </a>
                     </div>

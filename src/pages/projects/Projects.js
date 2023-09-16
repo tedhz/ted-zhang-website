@@ -43,7 +43,7 @@ function Projects () {
                                     around!
                                 </div>
                                 <div className='code-button-container'>
-                                    <a href='https://github.com/tedhz/ted-zhang-website' target="_blank" 
+                                    <a href='https://github.com/tedhz/ted-zhang-website' target="_blank" rel="noreferrer" 
                                     className='code-button' >
                                         Get Code
                                     </a>
@@ -121,7 +121,7 @@ function Projects () {
                                     human player. 
                                 </div>
                                 <div className='code-button-container'>
-                                    <a href='https://github.com/tedhz/mastermind-ai' target="_blank" 
+                                    <a href='https://github.com/tedhz/mastermind-ai' target="_blank" rel="noreferrer"
                                     className='code-button' >
                                         Get Code
                                     </a>

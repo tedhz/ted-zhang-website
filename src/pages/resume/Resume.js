@@ -13,10 +13,10 @@ function Resume () {
             <div className='description-resume'>
                 <h2>PDF version of my resume. <br /> Last updated September 16th, 2023.</h2>
             </div>
-            <a href={ Ted_Zhang_Resume } target="_blank" className='resume-button'>DOWNLOAD</a>
+            <a href={ Ted_Zhang_Resume } target="_blank" rel="noreferrer" className='resume-button'>DOWNLOAD</a>
         </div>
         <div className='resume-viewer'>
-            <img className='resume-pic' src={resume_png}/>
+            <img className='resume-pic' src={resume_png} alt="" />
         </div>
     </div>
     )
