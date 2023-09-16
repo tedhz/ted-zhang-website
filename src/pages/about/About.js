@@ -14,14 +14,14 @@ function About () {
                 </div>
                 <div className='txt-and-pic'>
                     <div className='about-text'>
-                        Hi, my name is Ted and I'm a Mechatronics Engineering student at the 
+                        Hi, my name is Ted and I'm a Computer Science student at the 
                         University of Waterloo! I love anything related to computers but I have a 
-                        particular interest in software and machine learning.
-                        I love learning new things and jump at the chance to make anything cool and
-                        computer-y!
+                        particular interest in machine learning and data science.
+                        I love learning new things and am always looking for opportunities to 
+                        advance my skillset. 
                         <br/><br/>
-                        On a personal note, I love my rabbit TJ, losing lots of games on Valorant and
-                        League of Legends, and learning about cars.
+                        On a personal note, I love my rabbit TT and my cat Tofu, losing lots of 
+                        games on Valorant, going to the gym, and learning about cars.
                         <br/><br/>
                         Scroll to learn more about me!
                     </div>
@@ -39,7 +39,7 @@ function About () {
                                 Tensorflow / Keras
                         </li>
                         <li className='skill'>
-                                OpenCV
+                                PySpark
                         </li>
                         <li className='skill'>
                                 Pandas
@@ -49,6 +49,12 @@ function About () {
                         </li>
                         <li className='skill'>
                                 NumPy
+                        </li>
+                        <li className='skill'>
+                                OpenCV
+                        </li>
+                        <li className='skill'>
+                                Azure Databricks
                         </li>
                         <li className='skill'>
                                 Javascript
