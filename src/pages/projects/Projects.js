@@ -56,43 +56,45 @@ function Projects () {
                     </div>
 
                     <div className='project'>
-                        <div className='medcnn-background' onClick={handleClickMedCNN}>
+                        <div className='ml2-background' onClick={handleClickMedCNN}>
                             <div className={clickMedCNN ? 'project-details-active' : 'project-details-inactive'} onClick={handleClickMedCNN}>
                                 <ul className='skills-used'>
                                     <li className='project-skill'>
-                                        Tensorflow    
+                                        React.js    
                                     </li>
                                     <li className='project-skill'>
-                                        Keras    
+                                        CSS    
                                     </li>
                                     <li className='project-skill'>
-                                        Pandas    
+                                        Django    
                                     </li>
                                     <li className='project-skill'>
-                                        Tkinter    
+                                        AWS EC2    
                                     </li>
                                     <li className='project-skill'>
-                                        Python    
+                                        Gunicorn    
                                     </li>
                                     <li className='project-skill'>
-                                        AI/ML    
-                                    </li>    
+                                        NGINX    
+                                    </li>      
                                 </ul>
                                 <div className='project-description'>
-                                    This project was built completely by me from scratch
-                                    during my time as an Artificial Intelligence
-                                    Intern at AMD. In short, this AI aims to 
-                                    identify and diagnose intracranial hemorrhages
-                                    in brain scans, which it is able to do with 94%
-                                    validation accuracy. It is trained on over 700000
-                                    medical images and uses transfer learning on an InceptionV3 
-                                    base. It also comes complete with both a CLI and GUI
-                                    for a smoother user experience.
+                                    ML<sup>2</sup> is a regressor I developed to predict NBA player performance. 
+                                    Metrics used as reliable indicators of performance include previous general 
+                                    player performances and against the selected opponent, variance in previous 
+                                    performances, and general statistics like points per game. The model achieves
+                                    a mean absolute error of 4.07 on validation data.
+                                </div>
+                                <div className='code-button-container'>
+                                    <a href='https://ml-squared.ca/' target="_blank" rel="noreferrer"
+                                    className='code-button' >
+                                        Explore
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div className='project-name-container'>
-                            <div className='project-name'>medCNN</div>
+                            <div className='project-name'>ML<sup>2</sup></div>
                         </div>
                     </div>
 

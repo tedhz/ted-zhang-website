@@ -14,10 +14,7 @@ function WorkExperience() {
             setCompany("Advanced Micro Devices Inc. (AMD)");
             setDates("Jan 2022 - Apr 2022");
             setDescription([
-                "Developed and trained a medical diagnosis AI that can detect intracranial hemorrhages with 94% validation accuracy using TensorFlow, Keras, Pandas, and NumPy trained on brain scans from an RSNA database of over 700,000 images.",
-                "Utilized transfer learning using InceptionV3, a custom data loader, and image preprocessing using OpenCV.",
-                "Built both a CLI and GUI using Tkinter to display the brain scans along with their predictions in a user-friendly manner.",
-                "Wrote a user guide and technical documentation to accompany the program.",
+                "Spearheaded development and training of a computer vision model on 700,000 images with 94% validation accuracy using TensorFlow, Keras. transfer learning using InceptionV3, a data loader using pandas, and image preprocessing using OpenCV.",
                 "Containerized an inference optimization library along with various other pretrained models using Docker and bash scripts.",
             ]);
         } else if (selectorId === "formulaelectric") {
@@ -30,14 +27,14 @@ function WorkExperience() {
                 "Modified a PDU mount to include a waterproofed container for a relay in SOLIDWORKS.",
             ]);
         } else if (selectorId === "blackberry") {
-            setPosition("Machine Learning Engineering Intern");
+            setPosition("Software Engineering Intern");
             setCompany("BlackBerry Limited");
             setDates("Sep 2022 - Dec 2022");
             setDescription([
                 "Developed an unsupervised NLP model with an 87 f1-score and 92% validation accuracy for log anomaly detection using hashing vectorizers, scalars, LSTM autoencoders, Google’s BERT transformer, and isolation forest.",
                 "Tested, productionized, and integrated the new model into the existing codebase and pushed 2000+ lines into production.",
                 "Researched and experimented with models from research papers using TensorFlow, Keras, Sckit-learn, and Pandas.",
-                "Improved the machine learning data pipeline by decreasing memory usage by 38% using multiprocessing, working on a NoSQL database, and reducing log footprint and redundant API calls by 55%.",
+                "Improved the machine learning data pipeline by using multiprocessing, working on a NoSQL database, and reducing log footprint and redundant API calls by 55%.",
                 "Implemented a CI/CD pipeline using Git, GitLab CI/CD, GitLab Runner, Docker, and bash scripts.",
             ]);
         } else if (selectorId === "kinaxis") {
