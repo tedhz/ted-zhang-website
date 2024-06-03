@@ -2,7 +2,7 @@ import React, {useEffect, useState } from 'react';
 import './WorkExperience.scss';
 
 function WorkExperience() {
-    const [selectorId, setSelectorId] = useState("kinaxis");
+    const [selectorId, setSelectorId] = useState("kinaxis2");
     const [position, setPosition] = useState("");
     const [company, setCompany] = useState("");
     const [dates, setDates] = useState("");
@@ -27,14 +27,14 @@ function WorkExperience() {
                 "Modified a PDU mount to include a waterproofed container for a relay in SOLIDWORKS.",
             ]);
         } else if (selectorId === "blackberry") {
-            setPosition("Software Engineering Intern");
+            setPosition("Software Engineering Intern - Machine Learning");
             setCompany("BlackBerry Limited");
             setDates("Sep 2022 - Dec 2022");
             setDescription([
                 "Developed an unsupervised NLP model with an 87 f1-score and 92% validation accuracy for log anomaly detection using hashing vectorizers, scalars, LSTM autoencoders, Google’s BERT transformer, and isolation forest.",
                 "Tested, productionized, and integrated the new model into the existing codebase and pushed 2000+ lines into production.",
                 "Researched and experimented with models from research papers using TensorFlow, Keras, Sckit-learn, and Pandas.",
-                "Improved the machine learning data pipeline by using multiprocessing, working on a NoSQL database, and reducing log footprint and redundant API calls by 55%.",
+                "Improved the machine learning data pipeline by reducing redundant API calls by 55% and optimizing low-level memory usage by 52% using multiprocessing, memory tracing, and memory profiling.",
                 "Implemented a CI/CD pipeline using Git, GitLab CI/CD, GitLab Runner, Docker, and bash scripts.",
             ]);
         } else if (selectorId === "kinaxis") {
@@ -47,6 +47,14 @@ function WorkExperience() {
                 "Analyzed and aggregated data from a large-scale database to prepare it for testing using PySpark and Azure Databricks, decreasing processing time by 53% compared to the previous system.",
                 "Refactored data utilities using PySpark, improving readability, reducing lines by 40%, and decreasing runtime by 45%.",
             ]);
+        } else if (selectorId === "kinaxis2") {
+            setPosition("Software Engineering Intern");
+            setCompany("Kinaxis Inc.");
+            setDates("May 2023 - Aug 2023");
+            setDescription([
+                "Engineered a REST API using Express.js that embeds data using OpenAI embeddings, interacting with a PostgreSQL vector database hosted on Azure. Also crafted a REST API that performs prompted log analysis using Express.js and OpenAI GPT-4.",
+                "Developed a chatbot frontend using React.js and CSS, and an ETL pipeline for logs using Apache Airflow and Datadog API.",
+            ]);
         }
 
     }, [selectorId]);
@@ -54,6 +62,14 @@ function WorkExperience() {
     return(
         <div className='jobs-container'>
             <ul className='company-list'>
+                <li 
+                    className={selectorId==="kinaxis2" ? 'item-active' : 'item-inactive'}
+                    onClick={() => {
+                        setSelectorId("kinaxis2");
+                    }}
+                >
+                    Kinaxis
+                </li> 
                 <li 
                     className={selectorId==="kinaxis" ? 'item-active' : 'item-inactive'}
                     onClick={() => {

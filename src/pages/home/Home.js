@@ -20,7 +20,7 @@ function Home() {
                                 </h1>
                             </div>
                             <div className='description-home'>
-                                <h2>Computer Science Student | Machine Learning Enthusiast</h2>
+                                <h2>Computer Science Student | Software Enthusiast</h2>
                             </div>
                             <Link to="/contact" className='contact-button'>CONTACT ME</Link>
                         </div>

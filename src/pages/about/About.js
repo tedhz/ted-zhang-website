@@ -16,7 +16,7 @@ function About () {
                     <div className='about-text'>
                         Hi, my name is Ted and I'm a Computer Science student at the 
                         University of Waterloo! I love anything related to computers but I have a 
-                        particular interest in machine learning and data science.
+                        particular interest in software engineering and machine learning.
                         I love learning new things and am always looking for opportunities to 
                         advance my skillset. 
                         <br/><br/>
@@ -36,25 +36,25 @@ function About () {
                                 Python
                         </li>    
                         <li className='skill'>
-                                Tensorflow / Keras
+                                Tensorflow
                         </li>
                         <li className='skill'>
                                 PySpark
                         </li>
                         <li className='skill'>
-                                Pandas
+                                Express.js
                         </li>
                         <li className='skill'>
                                 Scikit-learn
                         </li>
                         <li className='skill'>
-                                NumPy
+                                Django
                         </li>
                         <li className='skill'>
-                                OpenCV
+                                REST APIs
                         </li>
                         <li className='skill'>
-                                Azure Databricks
+                                PostgreSQL
                         </li>
                         <li className='skill'>
                                 Javascript
@@ -69,13 +69,13 @@ function About () {
                                 CI/CD
                         </li>
                         <li className='skill'>
-                                Linux/Unix Shell Scripting
+                                Apache Airflow
                         </li>
                         <li className='skill'>
-                                Docker
+                                Docker/ Kubernetes
                         </li>
                         <li className='skill'>
-                                Java
+                                SQL
                         </li>
                         <li className='skill'>
                                 C++
