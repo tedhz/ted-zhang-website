@@ -51,7 +51,7 @@ function About () {
                                 Django
                         </li>
                         <li className='skill'>
-                                REST APIs
+                                FastAPI
                         </li>
                         <li className='skill'>
                                 PostgreSQL
